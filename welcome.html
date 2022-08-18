@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<style>
+			body {
+			  font-family: verdana;
+			  font-size: 3.5vw;
+			}
+			
+			 @media (min-width: 450px) 
+			 {
+				body
+				{
+					font-size: 1vw;
+				}
+			 }
+			h2 {
+			  color: blue;
+			  font-size: 300%;
+			  padding: 0px;
+			  margin: 0px;
+			  -webkit-text-stroke-width: 3px;
+			  -webkit-text-stroke-color: green;
+			 }
+
+		</style>
+	</head>
+	<body>
+	  <h2>Welcome to the Hangman game!</h2>
+	  <h3>Login below:</h3>
+	  <form action="validatelogin.php" method="post">
+		<p>Username: <input type="text" name="Username"/></p>
+		<p>Password: <input type="text" name="Password"/></p>
+		<input type="submit" value="Submit"/>
+	  </form>
+	  <p><b>No account? Create an account <a href="createaccount.html">here</a></b></p>
+	</body>
+</html>
